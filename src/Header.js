@@ -5,11 +5,15 @@ const Header = function () {
     return (
         <div>
             <div className="body">
-                <a href="#">Youtube</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+                <a href="#">Music</a>
                 <div className="heading">
                     Broken Ties
                 </div>
-                <a href="#" id="spotify">Spotify</a>
+                <a href="#" id="spotify">Merch</a>
+                <a href="#">Tour</a>
+                <a href="#">Contact </a>
             </div>
         </div>
     )
