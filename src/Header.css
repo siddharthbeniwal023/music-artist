@@ -1,15 +1,21 @@
 .body {
-    padding: 20px;
-   
+    padding: 10px;
+    position: relative;
+    display: inline;
     display: flex;
-    text-align: center;
-    align-content: center;
-    margin-left: 610px;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading {
     color: #000000;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
-   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
 }
