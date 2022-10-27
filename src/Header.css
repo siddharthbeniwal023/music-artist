@@ -1,17 +1,15 @@
-.body{
+.body {
+    padding: 20px;
+   
     display: flex;
     text-align: center;
-    align-items: center;
-    padding: 1rem;
     align-content: center;
+    margin-left: 610px;
 }
 
-.heading{
+.heading {
     color: #000000;
-    font-family:'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
-}
-a{
- text-decoration: none;
- text-align: center;   
+   
 }

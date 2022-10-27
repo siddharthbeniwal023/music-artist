@@ -9,7 +9,8 @@ const Header = function(){
             <div className="heading">
         Broken Ties
         </div>
-        <a href="#">Spotify</a>
+        <a href="#" id="spotify">Spotify</a>
+        
             </div>
     )
 }
