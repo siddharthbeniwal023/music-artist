@@ -10,8 +10,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgb(215, 255, 255);
 }
-
-.heading {
+/* .heading {
     color: #000000;
     font-size: 2rem;
     font-weight: lighter;
@@ -19,16 +18,64 @@
     margin-inline-start: 30px;
     text-transform: lowercase;
     font-family: 'Advent Pro', sans-serif;
+} */
+button{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-inline-end: 30px;
+    margin-inline-start: 30px;
+    text-transform: lowercase;
+    font-family: 'Advent Pro', sans-serif;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
-a{
+.heading:hover span{
+    transition: .2s linear;
+}
+.heading:hover span:nth-child(1) {
+    margin-right: 2px;
+}
+
+.heading:hover span:nth-child(1):after {
+    content: "roken";
+}
+
+.heading:hover span:nth-child(2) {
+    margin-left: 2px;
+}
+.heading:hover span:nth-child(2):after {
+    content: "ies";
+}
+.heading:hover span{
+    color:rgb(0, 0, 0);
+  text-shadow: 0 0 2px rgb(14, 166, 180),
+               0 0 2px rgb(116, 12, 12), 
+               0 0 2px rgb(174, 16, 16);
+}
+
+a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     margin-inline-end: 30px;
     margin-inline-start: 30px;
-    cursor: pointer;   
+    cursor: pointer;
     font-size: smaller;
 }
-a:hover{
+
+a:hover {
     color: rgb(78, 132, 150);
 }
+/* .dropdown{
+    position: absolute;
+    display: none;
+    text-shadow: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.heading:hover .dropdown {display: block;}
+.dropdown:hover a{
+    /* background: aliceblue;   */
