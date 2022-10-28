@@ -1,0 +1,11 @@
+.videos{
+    margin: 0;
+    /* margin: 100px; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* background: steelblue; */
+    background: rgb(240, 248, 255,0.5)
+}

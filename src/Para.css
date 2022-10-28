@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+p{
+    margin: 0;
+    padding: 10%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    font-size: 100px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 200;
+    transition: 3s;
+    opacity: 0.02;
+    /* background: steelblue; */
+    height: 38.1vh;
+}
+p:hover {
+    transition: 3s;
+    opacity: 1;
+    /* text-shadow: 0 0 2px rgb(14, 166, 180, 1),
+        0 0 2px rgba(152, 103, 103, 1),
+        0 0 2px rgba(206, 141, 141, 1); */
+}

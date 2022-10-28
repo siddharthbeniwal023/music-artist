@@ -8,19 +8,20 @@ const Header = function () {
                 <a href="#" >Home</a>
                 <a href="#" >About</a>
                 <a href="#" id="">Music</a>
-                <div className="heading">
+                {/* <div className="heading">
                     <button className="headingbtn">
-                        <span>Broken</span><span>Ties</span>
+                        <span>no knots</span><span> attached</span>
                     </button>
                     {/* <div className="dropdown">
                         <a href="#">Let's get on a ride
                         </a>
-                    </div> */}
-                </div>
+                    </div> }
+                </div> */}
                 <a href="#" id="">Merch</a>
                 <a href="#" id="">Tour</a>
                 <a href="#" id="">Contact </a>
             </div>
+
         </div>
     )
 }
