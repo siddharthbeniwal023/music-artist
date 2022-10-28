@@ -8,8 +8,15 @@
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgb(215, 255, 255);
+    /* background: rgb(215, 255, 255, 0.2); */
+    /* background: rgb(224, 255, 255,0.5); */
+    /* background: url(); */
 }
+
+/* .body:hover {
+    transition: 10s;
+    background: rgb(224, 255, 255,0.2);
+} */
 /* .heading {
     color: #000000;
     font-size: 2rem;
@@ -19,7 +26,7 @@
     text-transform: lowercase;
     font-family: 'Advent Pro', sans-serif;
 } */
-button{
+button {
     color: #000000;
     font-size: 2rem;
     font-weight: lighter;
@@ -31,28 +38,40 @@ button{
     background: none;
     cursor: pointer;
 }
-.heading:hover span{
-    transition: .2s linear;
+
+.heading {
+    opacity: 0.01;
 }
+
+.heading:hover {
+    transition: 6s;
+    opacity: 1;
+}
+
 .heading:hover span:nth-child(1) {
     margin-right: 2px;
 }
 
 .heading:hover span:nth-child(1):after {
     content: "roken";
+    opacity: 1;
 }
 
 .heading:hover span:nth-child(2) {
     margin-left: 2px;
 }
+
 .heading:hover span:nth-child(2):after {
     content: "ies";
+    opacity: 1;
 }
-.heading:hover span{
-    color:rgb(0, 0, 0);
-  text-shadow: 0 0 2px rgb(14, 166, 180),
-               0 0 2px rgb(116, 12, 12), 
-               0 0 2px rgb(174, 16, 16);
+
+.heading:hover span {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 2px rgb(14, 166, 180, 0.2),
+        0 0 2px rgb(116, 12, 12, 0.2),
+        0 0 2px rgb(174, 16, 16, 0.2);
+    opacity: 1;
 }
 
 a {
@@ -63,11 +82,16 @@ a {
     margin-inline-start: 30px;
     cursor: pointer;
     font-size: smaller;
+    /* visibility: hidden; */
 }
 
 a:hover {
     color: rgb(78, 132, 150);
 }
+
+/* .heading :hover a{
+    display: block;
+} */
 /* .dropdown{
     position: absolute;
     display: none;
