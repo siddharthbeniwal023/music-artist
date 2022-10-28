@@ -3,7 +3,7 @@ import "./Para.css"
 const Para = function () {
     return (
         <div>
-            <p>
+            <p className="artistname">
                 Broken Ties
             </p>
         </div>

@@ -3,7 +3,7 @@ import Header from "./Header"
 import "./App.css"
 import Para from "./Para";
 import Musicvideos from "./Musicvideos";
-import Songname from "./Songname";
+import Songname from "./Songdetails";
 
 function App() {
   return (

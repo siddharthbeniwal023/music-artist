@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
 
-p{
+.artistname{
     margin: 0;
     padding: 10%;
     position: relative;
@@ -15,7 +15,7 @@ p{
     /* background: steelblue; */
     height: 38.1vh;
 }
-p:hover {
+.artistname:hover {
     transition: 3s;
     opacity: 1;
     /* text-shadow: 0 0 2px rgb(14, 166, 180, 1),
