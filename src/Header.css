@@ -30,8 +30,8 @@ button {
     color: #000000;
     font-size: 2rem;
     font-weight: lighter;
-    margin-inline-end: 30px;
-    margin-inline-start: 30px;
+    /* margin-inline-end: 30px;
+    margin-inline-start: 30px; */
     text-transform: lowercase;
     font-family: 'Advent Pro', sans-serif;
     border: none;
@@ -46,23 +46,24 @@ button {
 .heading:hover {
     transition: 6s;
     opacity: 1;
+    font-weight: 400;
 }
 
 .heading:hover span:nth-child(1) {
-    margin-right: 2px;
+    margin-right: 0px;
 }
 
 .heading:hover span:nth-child(1):after {
-    content: "roken";
+    /* content: "roken"; */
     opacity: 1;
 }
 
 .heading:hover span:nth-child(2) {
-    margin-left: 2px;
+    margin-left: 0px;
 }
 
 .heading:hover span:nth-child(2):after {
-    content: "ies";
+    /* content: "ies"; */
     opacity: 1;
 }
 
@@ -73,8 +74,12 @@ button {
         0 0 2px rgb(174, 16, 16, 0.2);
     opacity: 1;
 }
+a{
+    opacity: 0.5;
+}
 
 a {
+   
     text-decoration: none;
     text-transform: uppercase;
     color: black;
@@ -86,8 +91,13 @@ a {
 }
 
 a:hover {
-    color: rgb(78, 132, 150);
+    /* color: rgb(78, 132, 150); */
+    transition: 1s;
+    color: black;
+        opacity: 1; 
+        font-weight: 400;
 }
+
 
 /* .heading :hover a{
     display: block;
