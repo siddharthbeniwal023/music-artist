@@ -1,11 +1,11 @@
-/* .App{
-    background: aliceblue;
-background: url(/images/Picsart_22-06-03_12-03-23-315.png);
-width: 100vw;
-height: 100vh;
-scroll-behavior: smooth;
-background-attachment: fixed;
-} */
+.App{
+    /* background: aliceblue;
+background: url(/images/Picsart_22-06-03_12-03-23-315.png); */
+max-width: 100vw;
+max-height: 100vh;
+/* scroll-behavior: smooth;
+background-attachment: fixed; */
+}
 
 
 /* #myVideo {

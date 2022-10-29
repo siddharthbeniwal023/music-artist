@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
 
 .body {
+    margin: 0;
     padding: 4%;
+    /* padding-top: 3%; */
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: rgb(215, 255, 255, 0.2); */
     /* background: rgb(224, 255, 255,0.5); */
     /* background: url(); */
+    /* width: 100vw; */
+/* height: 100vh; */
+scroll-behavior: smooth;
 }
 .header{
+    margin: 0;
     background: aliceblue;
-background: url(/images/Picsart_22-06-03_12-03-23-315.png);
+/* background: url(/images/Picsart_22-06-03_12-03-23-315.png); */
 width: 100vw;
 height: 100vh;
 scroll-behavior: smooth;
@@ -47,10 +53,13 @@ button {
 }
 
 .heading {
+    margin: 0;
     opacity: 0.01;
 }
 
 .heading:hover {
+    margin: 0;
+    padding: 0;
     transition: 6s;
     opacity: 1;
     font-weight: 400;
@@ -86,7 +95,8 @@ a{
 }
 
 a {
-   
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
@@ -134,8 +144,11 @@ a:hover {
         opacity: 0.02;
         /* background: steelblue; */
         height: 38.1vh;
+        /* width: 100vw; */
     }
     .artistname:hover {
+        margin: 0;
+        /* width: 100vw; */
         transition: 3s;
         opacity: 1;
         /* text-shadow: 0 0 2px rgb(14, 166, 180, 1),

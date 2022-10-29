@@ -2,9 +2,14 @@
 
 
 .songdetails{
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top, rgb(150, 216, 230)white);
+    background: linear-gradient(to top, rgb(240, 248, 255,0.1), #ffffff),url(/images/Picsart_22-06-03_12-03-23-315.png);
+    /* background: linear-gradient(to top, rgb(0, 0, 0),white),url(/images/Picsart_22-06-03_12-03-23-315.png) center/cover; */
+
+    background: cover;
     background-attachment: fixed;
 }
 
@@ -15,7 +20,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     /* align-content: center; */
     /* background: steelblue; */
     /* background: rgb(240, 248, 255,0.8); */
@@ -23,6 +28,7 @@
 }
 .songname{
     margin: 0;
+    padding: 0;
     /* padding: 3%; */
     position: relative;
     display: flex;
@@ -43,9 +49,9 @@
 .songname:hover {
     transition: 1s;
     letter-spacing: 10px;
-    /* text-shadow: 0 0 2px rgb(14, 166, 180, 1),
+     text-shadow: 0 0 2px rgb(14, 166, 180, 1),
         0 0 2px rgba(152, 103, 103, 1),
-        0 0 2px rgba(206, 141, 141, 1); */
+        0 0 2px rgba(206, 141, 141, 1); 
 }
 .text{
     margin: 0;
