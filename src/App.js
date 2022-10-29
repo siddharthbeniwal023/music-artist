@@ -8,10 +8,10 @@ import Songname from "./Songdetails";
 function App() {
   return (
     <div className="App">
-          <Header/>
-          <Para/>
-          <Songname/>
-          <Musicvideos/>
+      <Header />
+      <Para />
+      <Songname />
+      <Musicvideos />
     </div>
   )
 }
