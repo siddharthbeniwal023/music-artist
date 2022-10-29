@@ -11,6 +11,14 @@
     /* background: rgb(224, 255, 255,0.5); */
     /* background: url(); */
 }
+.header{
+    background: aliceblue;
+background: url(/images/Picsart_22-06-03_12-03-23-315.png);
+width: 100vw;
+height: 100vh;
+scroll-behavior: smooth;
+background-attachment: fixed;
+}
 
 /* .body:hover {
     transition: 10s;
@@ -112,3 +120,26 @@ a:hover {
 .heading:hover .dropdown {display: block;}
 .dropdown:hover a{
     /* background: aliceblue;   */
+    .artistname{
+        margin: 0;
+        padding: 10%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        /* align-items: center;  */
+        font-size: 100px;
+        font-family: 'Advent Pro', sans-serif;
+        font-weight: 200;
+        transition: 3s;
+        opacity: 0.02;
+        /* background: steelblue; */
+        height: 38.1vh;
+    }
+    .artistname:hover {
+        transition: 3s;
+        opacity: 1;
+        /* text-shadow: 0 0 2px rgb(14, 166, 180, 1),
+            0 0 2px rgba(152, 103, 103, 1),
+            0 0 2px rgba(206, 141, 141, 1); */
+    }
+    
