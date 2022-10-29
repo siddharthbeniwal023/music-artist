@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header"
 import "./App.css"
 import Para from "./Para";
-import Musicvideos from "./Musicvideos";
+// import Musicvideos from "./Musicvideos";
 import Songname from "./Songdetails";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Para />
       <Songname />
-      <Musicvideos />
+      {/* <Musicvideos /> */}
     </div>
   )
 }

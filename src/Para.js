@@ -2,7 +2,7 @@ import React from "react";
 import "./Para.css"
 const Para = function () {
     return (
-        <div>
+        <div className="para">
             <p className="artistname">
                 Broken Ties
             </p>
