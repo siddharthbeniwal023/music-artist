@@ -49,9 +49,9 @@
 .songname:hover {
     transition: 1s;
     letter-spacing: 10px;
-     text-shadow: 0 0 2px rgb(14, 166, 180, 1),
+     /* text-shadow: 0 0 2px rgb(14, 166, 180, 1),
         0 0 2px rgba(152, 103, 103, 1),
-        0 0 2px rgba(206, 141, 141, 1); 
+        0 0 2px rgba(206, 141, 141, 1);  */
 }
 .text{
     margin: 0;

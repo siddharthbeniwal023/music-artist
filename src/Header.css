@@ -18,8 +18,8 @@ scroll-behavior: smooth;
 }
 .header{
     margin: 0;
-    background: aliceblue;
-/* background: url(/images/Picsart_22-06-03_12-03-23-315.png); */
+    /* background: aliceblue; */
+background: url(/images/Picsart_22-06-03_12-03-23-315.png);
 width: 100vw;
 height: 100vh;
 scroll-behavior: smooth;
@@ -132,7 +132,7 @@ a:hover {
     /* background: aliceblue;   */
     .artistname{
         margin: 0;
-        padding: 10%;
+        padding-top: 10%;
         position: relative;
         display: flex;
         justify-content: center;
@@ -144,7 +144,7 @@ a:hover {
         opacity: 0.02;
         /* background: steelblue; */
         height: 38.1vh;
-        /* width: 100vw; */
+        width: 100vw;
     }
     .artistname:hover {
         margin: 0;
